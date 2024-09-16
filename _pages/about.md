@@ -39,4 +39,4 @@ My research focuses on two main areas:
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg"></script>
 </div>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg'></script>
