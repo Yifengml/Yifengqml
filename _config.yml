@@ -21,11 +21,12 @@ repository               : "Yifengml/Yifengqml.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "github.png"
   name             : "Yifeng Peng"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student"
-  location         : "1 Castle Point Terrace, Hoboken, NJ 07030, United States"
+  location         : "1 Castle Point Terrace, Hoboken, \\
+                        NJ 07030, United States"
   employer         : "Stevens Institute of Technology"
   uri              : # URL
   email            : "ypeng21@stevens.edu" 
