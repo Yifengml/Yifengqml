@@ -22,10 +22,14 @@ My research focuses on two main areas:
 - **AI and Quantum Intersection**: Developing novel algorithms at the convergence of AI and quantum computing.
 - **Quantum AI Optimization**: Solving AI optimization problems more efficiently with quantum principles.
 - **Advanced Denoising Diffusion Probabilistic Models**: Exploring new possibilities in AI, such as quantum-enhanced DDPM.
-
+-**Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
 
 ## News <i class="fa-solid fa-font-awesome"></i> 
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
+**Yifeng Peng**, Xinyi Li, Ying Wang
+**Quantum Squeeze-and-Excitation Networks**
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
+**Yifeng Peng**, Xinyi Li, Ying Wang
+**QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number**
