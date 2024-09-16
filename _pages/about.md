@@ -35,8 +35,5 @@ My research focuses on two main areas:
 - **QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number**
 
 
-<div id="clustrmaps-container" style="width: 200px; height: 200px;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg"></script>
-</div>
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=250&t=n&d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg'></script>
