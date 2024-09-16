@@ -21,7 +21,7 @@ My research focuses on two main areas:
 ### 2. Quantum Artificial Intelligence (QAI) <i class="fas fa-brain"></i>
 - **AI and Quantum Intersection**: Developing novel algorithms at the convergence of AI and quantum computing.
 - **Quantum AI Optimization**: Solving AI optimization problems more efficiently with quantum principles.
-- **Advanced Pattern Recognition**: Exploring new possibilities in AI, such as quantum-enhanced pattern recognition.
+- **Advanced Denoising Diffusion Probabilistic Models*: Exploring new possibilities in AI, such as quantum-enhanced DDPM.
 
 
 Selected Research
