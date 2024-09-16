@@ -24,6 +24,6 @@ My research focuses on two main areas:
 - **Advanced Denoising Diffusion Probabilistic Models**: Exploring new possibilities in AI, such as quantum-enhanced DDPM.
 
 
-News
+## News <i class="fa-solid fa-font-awesome"></i> 
 ======
 
