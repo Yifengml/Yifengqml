@@ -24,7 +24,7 @@ My research focuses on two main areas:
 - **Advanced Denoising Diffusion Probabilistic Models**: Exploring new possibilities in AI, such as quantum-enhanced DDPM.
 -**Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
 
-## News <i class="fa-solid fa-font-awesome"></i> 
+## News! <i class="fa-solid fa-font-awesome"></i> 
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - **Yifeng Peng**, Xinyi Li, Ying Wang
