@@ -26,6 +26,6 @@ My research focuses on two main areas:
 
 ## News <i class="fa-solid fa-font-awesome"></i> 
 
-<i class="fa-thin fa-rocket-launch"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 
-<i class="fa-thin fa-rocket-launch"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
