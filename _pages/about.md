@@ -33,3 +33,6 @@ My research focuses on two main areas:
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Quantum Week 2024](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - **Yifeng Peng**, Xinyi Li, Ying Wang
 - **QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number**
+
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg"></script>
