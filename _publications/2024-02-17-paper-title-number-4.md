@@ -3,7 +3,7 @@ title: "SmiLe Net: A Supervised Graph Embedding-based Machine Learning Approach 
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'Keywords: Root cause analysis;Machine learning algorithms;5G mobile communication;Wireless networks;Machine learning;Fuzzing'
 date: 2023/10/30
 venue: 'MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10356317'
