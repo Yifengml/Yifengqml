@@ -1,1 +1,11 @@
+---
+title: "Presentation at IEEE Quantum Week — the IEEE International Conference on Quantum Computing and Engineering (QCE)"
+collection: talks
+type: "Presentation"
+permalink: /talks/QRNG
+venue: "QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number"
+date: 2024-9-16
+location: "Montréal, Québec, Canada"
+---
+<img src="../images/QRNG1.jpg" alt="QRNG1" width="250">
 
