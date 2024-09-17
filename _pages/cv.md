@@ -14,6 +14,7 @@ Education
 * Ph.D in School of Systems and Enterprises, Stevens Institute of Technology, (2023-2027 (expected))
 * B.S. in Electronic Information Engineering, University of Electronic Science and Technology of Chinay, (2018-2022)
 
-Award
-======
-* 
+
+[Download my CV (PDF)](/files/cv.pdf)
+
+
