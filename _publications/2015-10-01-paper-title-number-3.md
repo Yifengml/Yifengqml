@@ -3,7 +3,7 @@ title: "DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in 
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'Keywords: 5G mobile communication;Fuzzing;Protocols;Wireless communication '
 date: 2023/10/20
 venue: 'IEEE Access'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10288487'
