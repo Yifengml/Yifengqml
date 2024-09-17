@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Large rotating magnetocaloric effect of textured polycrystalline HoB2 alloy contributed by anisotropic ferromagnetic susceptibility"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'Keywords: Large Rotating Magnetocaloric Effect (RMCE) '
+date: 2022/3/28
+venue: 'Applied Physics Letters'
+paperurl: 'https://pubs.aip.org/aip/apl/article-abstract/120/13/132401/2833314/Large-rotating-magnetocaloric-effect-of-textured?redirectedFrom=fulltext'
+citation: 'Xiaoyu Zhou, Yafen Shang, Tian Luo, Yifeng Peng, Hao Fu; Large rotating magnetocaloric effect of textured polycrystalline HoB2 alloy contributed by anisotropic ferromagnetic susceptibility. Appl. Phys. Lett. 28 March 2022; 120 (13): 132401. https://doi.org/10.1063/5.0088571'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
