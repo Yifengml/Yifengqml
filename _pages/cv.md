@@ -15,6 +15,6 @@ Education
 * B.S. in Electronic Information Engineering, University of Electronic Science and Technology of Chinay, (2018-2022)
 
 
-[Download my CV (PDF)](/files/cv.pdf)
+[Download my CV (PDF)](../files/cv.pdf)
 
 
