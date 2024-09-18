@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Download my CV (PDF)]（https://github.com/Yifengml/Yifengqml/blob/master/files/cv.pdf)
+[Download my CV (PDF)](https://github.com/Yifengml/Yifengqml/blob/master/files/cv.pdf)
 
 Education
 ======
@@ -17,7 +17,7 @@ Education
 
 Award
 ======
-Postgraduate Studentship (PGS) award, Hong Kong University of Science and Technology (HKUST) 09/2022
+
 Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2021
 Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2020
 Engineer Certification: China Power Semiconductor Engineers Union                   10/2019                              
