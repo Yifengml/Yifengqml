@@ -17,15 +17,17 @@ Education
 
 Award
 ======
-
-Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2021
-Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2020
-Engineer Certification: China Power Semiconductor Engineers Union                   10/2019                              
-Merit-based Academic Scholarship, UESTC                                             10/2019
-Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2019
-Excellent Class Leader, Glasgow College, UESTC                                      10/2019
-First Place, Representative of Excellent Class Oral Defence                         10/2019
-Excellent Member, Science and Innovation Division, Glasgow College, UESTC           09/2019
-Excellent Volunteer, Green Action Volunteer Team, UESTC & Glasgow College, UESTC    09/2019
-Third Award, “M&S Electronics Cup” Electronics Design Contest                       12/2018
-Outstanding Volunteer, UESTC                                                        10/2018
+* NSF Student Travel Grant, IEEE QCE 2024                                             09/2024
+* IEEE Student Travel Grant, IEEE Military Communications Conference                  10/2023
+* Provost's Doctoral Fellowship, Stevens Institute of Technology                      09/2023
+* Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2021
+* Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2020
+* Engineer Certification: China Power Semiconductor Engineers Union                   10/2019                              
+* Merit-based Academic Scholarship, UESTC                                             10/2019
+* Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2019
+* Excellent Class Leader, Glasgow College, UESTC                                      10/2019
+* First Place, Representative of Excellent Class Oral Defence                         10/2019
+* Excellent Member, Science and Innovation Division, Glasgow College, UESTC           09/2019
+* Excellent Volunteer, Green Action Volunteer Team, UESTC & Glasgow College, UESTC    09/2019
+* Third Award, “M&S Electronics Cup” Electronics Design Contest                       12/2018
+* Outstanding Volunteer, UESTC                                                        10/2018
