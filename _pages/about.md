@@ -31,7 +31,7 @@ My research focuses on two main areas:
 - **Quantum Squeeze-and-Excitation Networks**
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE) ](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
--<u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
 - **QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number**
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)](https://ccnc2024.ieee-ccnc.org/) , 1st January 2024
