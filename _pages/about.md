@@ -27,7 +27,7 @@ My research focuses on two main areas:
 ## News! <i class="fa-solid fa-font-awesome"></i> 
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
-- **_Yifeng Peng_**, Xinyi Li, Ying Wang
+- **Yifeng Peng**, Xinyi Li, Ying Wang
 - **Quantum Squeeze-and-Excitation Networks**
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE) ](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
