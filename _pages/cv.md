@@ -14,7 +14,13 @@ Education
 ======
 * Ph.D in School of Systems and Enterprises, Stevens Institute of Technology, (2023-2027 (expected))
 * B.S. in Electronic Information Engineering, University of Electronic Science and Technology of Chinay, (2018-2022)
-
+  
+Reviewer
+======
+* IEEE Transactions on Machine Learning in Communications and Networking
+* IEEE Access
+* IEEE Transactions on Quantum Engineering
+  
 Award
 ======
 * NSF Student Travel Grant, IEEE QCE 2024                                             09/2024
