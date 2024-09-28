@@ -28,24 +28,24 @@ My research focuses on two main areas:
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
-- **Quantum Squeeze-and-Excitation Networks**
+- Quantum Squeeze-and-Excitation Networks
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE) ](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
-- **QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number**
+- QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)](https://ccnc2024.ieee-ccnc.org/) , 1st January 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Jingda Yang, Sudhanshu Arya, Ying Wang
-- **RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection**
+- RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM)](https://milcom2023.milcom.org/) , 30th Octorber 2023
 - <u><b>Yifeng Peng</b></u>, Jingda Yang, Sudhanshu Arya, Ying Wang
-- **SmiLe Net: A Supervised Graph Embedding-based Machine Learning Approach for NextG Vulnerability Detection**
+- SmiLe Net: A Supervised Graph Embedding-based Machine Learning Approach for NextG Vulnerability Detection
 
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Access](https://ieeeaccess.ieee.org/) , 20th Octorber 2023
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Sudhanshu Arya, Ying Wang
-- **DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection**
+- DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection
 
 
 <hr>
