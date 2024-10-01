@@ -25,6 +25,9 @@ My research focuses on two main areas:
 -**Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
 
 ## News! <i class="fa-solid fa-font-awesome"></i> 
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Open Journal of the Communications Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661) , 1st Octorber 2024
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Sudhanshu Arya, Ying Wang
+- CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications
 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
