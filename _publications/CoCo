@@ -1,0 +1,14 @@
+---
+title: "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications"
+collection: publications
+category: manuscripts
+permalink: /publication/CoCo
+excerpt: 'Keywords: 5G mobile communication;Fuzzing;Protocols;Wireless communication; NLP '
+date: 2024/10/1
+venue: 'IEEE Open Journal of the Communications Society'
+paperurl: 'https://ieeexplore.ieee.org/document/10701039'
+citation: 'Y. Peng, X. Li, S. Arya and Y. Wang, "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications," in IEEE Open Journal of the Communications Society, doi: 10.1109/OJCOMS.2024.3471709.
+keywords: {Fuzzing;Security;5G mobile communication;Machine learning;Accuracy;Natural language processing;Scalability;Real-time systems;Internet of Things;Analytical models;Machine Learning;Word2Vec;CBOW;NextG Vulnerability Detection;Fuzz Testing}, '
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
