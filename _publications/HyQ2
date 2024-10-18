@@ -1,0 +1,13 @@
+---
+title: "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection"
+collection: publications
+category: manuscripts
+permalink: /publication/HyQ2
+excerpt: 'Keywords:Quantum Computing, Hybrid Quantum Classical Nueral Networks, 5G mobile communication, NLP '
+date: 2024/10/12
+venue: 'IEEE Transactions on Quantum Engineering'
+paperurl: 'https://ieeexplore.ieee.org/document/10716796'
+citation: 'Y. Peng, X. Li, Z. Liang and Y. Wang, "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection," in IEEE Transactions on Quantum Engineering, doi: 10.1109/TQE.2024.3481280. keywords: {Quantum computing;Quantum entanglement;Integrated circuit modeling;Noise;Data models;Computational modeling;Biological neural networks;5G mobile communication;Qubit;Neural networks;Quantum Computing;Quantum Neural Networks;NextG Vulnerability Detection}, '
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
