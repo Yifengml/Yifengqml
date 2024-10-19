@@ -2,7 +2,6 @@
 title: "RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection"
 collection: publications
 category: conferences
-permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Keywords: Root cause analysis;Protocols;5G mobile communication;Machine learning'
 date: 2024/1/6
 venue: '2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)'
