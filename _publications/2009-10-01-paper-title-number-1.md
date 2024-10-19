@@ -2,7 +2,6 @@
 title: "Large rotating magnetocaloric effect of textured polycrystalline HoB2 alloy contributed by anisotropic ferromagnetic susceptibility"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Keywords: Large Rotating Magnetocaloric Effect (RMCE) '
 date: 2022/3/28
 venue: 'Applied Physics Letters'
