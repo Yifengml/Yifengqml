@@ -2,7 +2,6 @@
 title: "DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'Keywords: 5G mobile communication;Fuzzing;Protocols;Wireless communication '
 date: 2023/10/20
 venue: 'IEEE Access'
