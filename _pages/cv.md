@@ -23,7 +23,7 @@ Services
   
 Award
 ======
-* NSF Student Travel Grant, IEEE QCE 2024                                             09/2024
+* NSF Student Travel Grant # 2417602, IEEE QCE 2024                                   09/2024
 * IEEE Student Travel Grant, IEEE Military Communications Conference                  10/2023
 * Provost's Doctoral Fellowship, Stevens Institute of Technology                      09/2023
 * Watt Innovation Talent Scholarship, Glasgow College, UESTC                          10/2021
