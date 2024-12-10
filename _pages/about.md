@@ -25,6 +25,10 @@ My research focuses on two main areas:
 - **Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
 
 ## News! <i class="fa-solid fa-font-awesome"></i> 
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [The Association for the Advancement of Artificial Intelligence (AAAI) 2025](https://aaai.org/) , 9th December 2024
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhiding Liang, Ying Wang
+- Qsco: A Quantum Scoring Module for Open-set Supervised Anomaly Detection
+
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 10th Octorber 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhiding Liang, Ying Wang
 - HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection
