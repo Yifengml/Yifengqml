@@ -25,6 +25,10 @@ My research focuses on two main areas:
 - **Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
 
 ## News! <i class="fa-solid fa-font-awesome"></i> 
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2025 IEEE International Conference on Communications (ICC)](https://icc2025.ieee-icc.org/) , 17th January 2025
+- Xinyi Li, <u><b>Yifeng Peng</b></u>, Ying Wang
+- FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing Vibration and 5G Communication for UAV Classification
+
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [The Association for the Advancement of Artificial Intelligence (AAAI) 2025](https://aaai.org/) , 9th December 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhiding Liang, Ying Wang
 - Qsco: A Quantum Scoring Module for Open-set Supervised Anomaly Detection
