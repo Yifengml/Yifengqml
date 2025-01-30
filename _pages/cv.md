@@ -17,6 +17,8 @@ Education
   
 Services
 ======
+* The Thirteenth International Conference on Learning Representations (ICLR 2025)
+* 2025 Design Automation Conference (DAC)
 * IEEE Transactions on Machine Learning in Communications and Networking
 * IEEE Access
 * IEEE Transactions on Quantum Engineering
