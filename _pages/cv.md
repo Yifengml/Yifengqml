@@ -22,6 +22,8 @@ Services
 * IEEE Transactions on Machine Learning in Communications and Networking
 * IEEE Access
 * IEEE Transactions on Quantum Engineering
+* Quantum Machine Intelligence
+* The International Conference on Machine Learning (ICML) 2025
   
 Award
 ======
