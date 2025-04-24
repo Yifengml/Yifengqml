@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello！ My name is Yifeng Peng and I am currently a second year PhD Candidate at [Stevens Institute of Technology](https://www.stevens.edu/) advised by [Prof. Ying Wang](https://www.stevens.edu/profile/ywang6). And I have my undergraduate study at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) and [University of Glasgow](https://www.gla.ac.uk/) advised by [Prof. Jienan Chen](https://scholar.google.ca/citations?user=uAkKmZUAAAAJ&hl=en&oi=ao) and [Prof. Bo Yi](https://faculty.uestc.edu.cn/yibo/en/index.htm).
+Hello！ My name is Yifeng Peng and I am currently a second year PhD Candidate at [Stevens Institute of Technology](https://www.stevens.edu/) advised by [Prof. Ying Wang](https://www.stevens.edu/profile/ywang6) and co-advised by [Prof. Zhiding Liang](https://www.innovationadvancedlab.com/) (Rensselaer Polytechnic Institute). And I have my undergraduate study at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) and [University of Glasgow](https://www.gla.ac.uk/) advised by [Prof. Jienan Chen](https://scholar.google.ca/citations?user=uAkKmZUAAAAJ&hl=en&oi=ao) and [Prof. Bo Yi](https://faculty.uestc.edu.cn/yibo/en/index.htm).
 
 ## Research Interests <i class="fas fa-flask"></i>
 
