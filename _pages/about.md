@@ -21,7 +21,7 @@ My research focuses on two main areas:
 ### 2. Quantum Artificial Intelligence (QAI) <i class="fas fa-brain"></i>
 - **AI and Quantum Intersection**: Developing novel algorithms at the convergence of AI and quantum computing.
 - **Quantum AI Optimization**: Solving AI optimization problems more efficiently with quantum principles.
-- **Advanced Denoising Diffusion Probabilistic Models**: Exploring new possibilities in AI, such as quantum-enhanced DDPM.
+- **AI for Quantum**: Exploring new possibilities AI for Quantum.
 - **Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
 
 ## News! <i class="fa-solid fa-font-awesome"></i> 
