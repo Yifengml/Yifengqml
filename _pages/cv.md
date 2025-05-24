@@ -29,6 +29,7 @@ Services-Reviewer
   
 Award
 ======
+* Fabrycky-Blanchard Outstanding Doctoral Research Award                              05/2025
 * NSF Student Travel Grant # 2417602, IEEE QCE 2024                                   09/2024
 * IEEE Student Travel Grant, IEEE Military Communications Conference                  10/2023
 * Provost's Doctoral Fellowship, Stevens Institute of Technology                      09/2023
