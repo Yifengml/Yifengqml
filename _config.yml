@@ -24,7 +24,7 @@ author:
   avatar           : "1f.jpg"
   name             : "Yifeng Peng (彭一峰)"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student"
+  bio              : "PhD Candidate"
   location         : "1 Castle Point Terrace, Hoboken,
                         <br> NJ 07030, United States"
   employer         : "Stevens Institute of Technology"
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/yifeng-peng-940516281/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
