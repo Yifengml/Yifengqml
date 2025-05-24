@@ -17,6 +17,8 @@ Education
   
 Services
 ======
+* 2025 International Conference on Computer-Aided Design (ICCAD)
+* IEEE International Conference on Quantum Computing and Engineering (QCE) 2025
 * The Thirteenth International Conference on Learning Representations (ICLR 2025)
 * 2025 Design Automation Conference (DAC)
 * IEEE Transactions on Machine Learning in Communications and Networking
