@@ -14,15 +14,14 @@ Hello！ My name is Yifeng Peng and I am currently a second year PhD Candidate a
 My research focuses on two main areas:
 
 ### 1. Quantum Machine Learning (QML) <i class="fas fa-atom"></i>
-- **Harnessing Quantum Computing for ML**: I explore how quantum computing can enhance traditional machine learning models.
-- **Quantum Algorithms**: Leveraging quantum algorithms to accelerate processing times.
-- **Improved Performance**: Using quantum techniques to boost performance in complex data analysis tasks.
+- **Variational Quantum Algorithms (VQA/VQE)**: Design and theoretical analysis of parameterised quantum circuits for eigenvalue estimation, combinatorial optimisation, and quantum‐enhanced model training on NISQ hardware.
+- **Machine-Learning Methods for Quantum Systems**: Application of reinforcement learning, graph neural networks, and Bayesian optimisation to circuit synthesis, noise mitigation, error correction, and device calibration.
+- **Quantum-Enhanced Machine Learning**:  Development of quantum feature maps, kernels, and neural networks that exploit superposition and entanglement to reduce sample complexity and accelerate inference under realistic noise models.
 
 ### 2. Quantum Artificial Intelligence (QAI) <i class="fas fa-brain"></i>
-- **AI and Quantum Intersection**: Developing novel algorithms at the convergence of AI and quantum computing.
-- **Quantum AI Optimization**: Solving AI optimization problems more efficiently with quantum principles.
-- **AI for Quantum**: Exploring new possibilities AI for Quantum.
-- **Tools**: I am using [IBM Qiskit](https://www.ibm.com/quantum/qiskit) and [Pennylane](https://pennylane.ai/) for Quantum Simulation.
+- **AI–Quantum Co-Design**: Formulating novel learning paradigms that tightly integrate classical AI models with non-classical resources (superposition, entanglement) to enhance expressivity, sample efficiency, and trainability on NISQ devices.
+- **Quantum-Accelerated Optimisation for AI**: Investigating variational and quantum-inspired heuristics (e.g., QAOA-style schedulers, quantum annealing mappings) to speed up large-scale hyper-parameter search, neural architecture search, and combinatorial reasoning tasks central to modern AI.
+- **AI Techniques for Quantum Hardware**: Deploying Large Language Model (LLM) to automate circuit compilation, noise suppression, error-mitigation strategies, and adaptive calibration, thereby improving quantum processor fidelity and throughput.
 
 ## News! <i class="fa-solid fa-font-awesome"></i> 
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2025 IEEE International Conference on Communications (ICC)](https://icc2025.ieee-icc.org/) , 17th January 2025
