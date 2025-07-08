@@ -31,6 +31,7 @@ My research focuses on two main areas:
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
 - Can Classical Initialization Help Variational Quantum Circuits Escape the Barren Plateau?
+  
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2025 IEEE International Conference on Communications (ICC)](https://icc2025.ieee-icc.org/) , 17th January 2025
 - Xinyi Li, <u><b>Yifeng Peng</b></u>, Ying Wang
 - FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing Vibration and 5G Communication for UAV Classification
