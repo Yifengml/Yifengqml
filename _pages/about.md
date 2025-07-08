@@ -24,6 +24,13 @@ My research focuses on two main areas:
 - **AI Techniques for Quantum Hardware**: Deploying Large Language Model (LLM) to automate circuit compilation, noise suppression, error-mitigation strategies, and adaptive calibration, thereby improving quantum processor fidelity and throughput.
 
 ## News! <i class="fa-solid fa-font-awesome"></i> 
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
+- Breaking Through Barren Plateaus: Reinforcement Learning Initializations for Deep Variational Quantum Circuits
+
+<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
+- Can Classical Initialization Help Variational Quantum Circuits Escape the Barren Plateau?
 <i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2025 IEEE International Conference on Communications (ICC)](https://icc2025.ieee-icc.org/) , 17th January 2025
 - Xinyi Li, <u><b>Yifeng Peng</b></u>, Ying Wang
 - FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing Vibration and 5G Communication for UAV Classification
