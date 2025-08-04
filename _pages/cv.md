@@ -26,6 +26,9 @@ Services-Reviewer
 * IEEE Transactions on Quantum Engineering
 * Quantum Machine Intelligence
 * The International Conference on Machine Learning (ICML) 2025
+* ACM Transactions on Quantum Computing
+* AAAI 2026 Conference Program Committee
+* 31st Asia and South Pacific Design Automation Conference ASP-DAC 2026
   
 Award
 ======
