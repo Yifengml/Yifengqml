@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Download my CV (PDF)](https://github.com/Yifengml/Yifengqml/blob/master/files/Yifeng_s_Resume_v2.pdf)
+[Download my CV (PDF)](https://github.com/Yifengml/Yifengqml/blob/master/files/cv3.pdf)
 
 Education
 ======
