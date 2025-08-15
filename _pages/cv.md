@@ -12,7 +12,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Quantum Computing, Stevens Institute of Technology, (2023-2027 (expected))
+* Ph.D in Quantum Computing, Stevens Institute of Technology, (2023-2026 (expected))
 * B.S. in Electronic Information Engineering, University of Electronic Science and Technology of China, (2018-2022)
   
 Services-Reviewer
