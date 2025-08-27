@@ -59,7 +59,7 @@ My research focuses on two main areas:
 :triangular_flag_on_post: One Paper Accepted by [2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)](https://ccnc2024.ieee-ccnc.org/) , 1st January 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Jingda Yang, Sudhanshu Arya, Ying Wang
 - RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection
-- 
+  
 :triangular_flag_on_post: One Paper Accepted by [MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM)](https://milcom2023.milcom.org/) , 30th Octorber 2023
 - <u><b>Yifeng Peng</b></u>, Jingda Yang, Sudhanshu Arya, Ying Wang
 - SmiLe Net: A Supervised Graph Embedding-based Machine Learning Approach for NextG Vulnerability Detection
