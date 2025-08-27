@@ -28,44 +28,44 @@ My research focuses on two main areas:
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
 - Breaking Through Barren Plateaus: Reinforcement Learning Initializations for Deep Variational Quantum Circuits
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
+:triangular_flag_on_post: One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
 - Can Classical Initialization Help Variational Quantum Circuits Escape the Barren Plateau?
   
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2025 IEEE International Conference on Communications (ICC)](https://icc2025.ieee-icc.org/) , 17th January 2025
+:triangular_flag_on_post: One Paper Accepted by [2025 IEEE International Conference on Communications (ICC)](https://icc2025.ieee-icc.org/) , 17th January 2025
 - Xinyi Li, <u><b>Yifeng Peng</b></u>, Ying Wang
 - FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing Vibration and 5G Communication for UAV Classification
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [The Association for the Advancement of Artificial Intelligence (AAAI) 2025](https://aaai.org/) , 9th December 2024
+:triangular_flag_on_post: One Paper Accepted by [The Association for the Advancement of Artificial Intelligence (AAAI) 2025](https://aaai.org/) , 9th December 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhiding Liang, Ying Wang
 - Qsco: A Quantum Scoring Module for Open-set Supervised Anomaly Detection
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 10th Octorber 2024
+:triangular_flag_on_post: One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 10th Octorber 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhiding Liang, Ying Wang
 - HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Open Journal of the Communications Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661) , 1st Octorber 2024
+:triangular_flag_on_post: One Paper Accepted by [IEEE Open Journal of the Communications Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661) , 1st Octorber 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Sudhanshu Arya, Ying Wang
 - CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
+:triangular_flag_on_post: One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
 - Quantum Squeeze-and-Excitation Networks
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE) ](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
+:triangular_flag_on_post: One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE) ](https://qce.quantum.ieee.org/2024/) , 23rd August 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
 - QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)](https://ccnc2024.ieee-ccnc.org/) , 1st January 2024
+:triangular_flag_on_post: One Paper Accepted by [2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)](https://ccnc2024.ieee-ccnc.org/) , 1st January 2024
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Jingda Yang, Sudhanshu Arya, Ying Wang
 - RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection
-
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM)](https://milcom2023.milcom.org/) , 30th Octorber 2023
+- 
+:triangular_flag_on_post: One Paper Accepted by [MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM)](https://milcom2023.milcom.org/) , 30th Octorber 2023
 - <u><b>Yifeng Peng</b></u>, Jingda Yang, Sudhanshu Arya, Ying Wang
 - SmiLe Net: A Supervised Graph Embedding-based Machine Learning Approach for NextG Vulnerability Detection
 
 
-<i class="fa-solid fa-wand-magic-sparkles"></i> One Paper Accepted by [IEEE Access](https://ieeeaccess.ieee.org/) , 20th Octorber 2023
+:triangular_flag_on_post: One Paper Accepted by [IEEE Access](https://ieeeaccess.ieee.org/) , 20th Octorber 2023
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Sudhanshu Arya, Ying Wang
 - DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection
 
