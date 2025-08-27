@@ -23,7 +23,7 @@ My research focuses on two main areas:
 - **Quantum-Accelerated Optimisation for AI**: Investigating variational and quantum-inspired heuristics (e.g., QAOA-style schedulers, quantum annealing mappings) to speed up large-scale hyper-parameter search, neural architecture search, and combinatorial reasoning tasks central to modern AI.
 - **AI Techniques for Quantum Hardware**: Deploying Large Language Model (LLM) to automate circuit compilation, noise suppression, error-mitigation strategies, and adaptive calibration, thereby improving quantum processor fidelity and throughput.
 
-## News! <i class="fa-solid fa-font-awesome"></i> 
+## News! :dart:
 :triangular_flag_on_post: One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
 - Breaking Through Barren Plateaus: Reinforcement Learning Initializations for Deep Variational Quantum Circuits
