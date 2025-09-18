@@ -24,6 +24,10 @@ My research focuses on two main areas:
 - **AI Techniques for Quantum Hardware**: Deploying Large Language Model (LLM) to automate circuit compilation, noise suppression, error-mitigation strategies, and adaptive calibration, thereby improving quantum processor fidelity and throughput.
 
 ## News! :dart:
+:triangular_flag_on_post: One Paper Accepted by [The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)](https://neurips.cc/) , 18th September 2025
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Samuel Yen-Chi Chen, Kaining Zhang, Zhiding Liang, Ying Wang, Yuxuan Du
+- TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE
+  
 :triangular_flag_on_post: One Paper Accepted by [IEEE International Conference on Quantum Computing and Engineering (QCE)](https://qce.quantum.ieee.org/2025/) , 8th July 2025
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang
 - Breaking Through Barren Plateaus: Reinforcement Learning Initializations for Deep Variational Quantum Circuits
