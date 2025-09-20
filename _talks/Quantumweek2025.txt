@@ -1,0 +1,11 @@
+---
+title: "Presentation at The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)"
+collection: Poster
+type: "Presentation"
+permalink: /talks/aaai2025
+venue: " Qsco: A Quantum Scoring Module for Open-set Supervised Anomaly Detection"
+date: 2025-3-1
+location: "Philadelphia, Pennsylvania, USA"
+---
+<img src="../images/aaai3.jpg" alt="aaai2025" width="250">
+<img src="../images/aaai2.jpg" alt="aaai2025" width="150">
