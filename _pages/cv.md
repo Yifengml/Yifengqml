@@ -17,6 +17,8 @@ Education
   
 Services-Reviewer
 ======
+* ICLR 2026 Conference Program Committee
+* Nature Scientific Reports
 * 2025 International Conference on Computer-Aided Design (ICCAD)
 * IEEE International Conference on Quantum Computing and Engineering (QCE) 2025
 * The Thirteenth International Conference on Learning Representations (ICLR 2025)
