@@ -17,6 +17,9 @@ Education
   
 Services-Reviewer
 ======
+* ICML 2026 Conference Program Committee
+* NeuriIPS 2026 Conference Program Committee
+* AAAI 2027 Conference Program Committee
 * ICLR 2026 Conference Program Committee
 * Nature Scientific Reports
 * 2025 International Conference on Computer-Aided Design (ICCAD)
