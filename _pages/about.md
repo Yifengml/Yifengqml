@@ -22,6 +22,8 @@ My research focuses on two main areas:
 - **AI–Quantum Co-Design**: Formulating novel learning paradigms that tightly integrate classical AI models with non-classical resources (superposition, entanglement) to enhance expressivity, sample efficiency, and trainability on NISQ devices.
 - **Quantum-Accelerated Optimisation for AI**: Investigating variational and quantum-inspired heuristics (e.g., QAOA-style schedulers, quantum annealing mappings) to speed up large-scale hyper-parameter search, neural architecture search, and combinatorial reasoning tasks central to modern AI.
 - **AI Techniques for Quantum Hardware**: Deploying Large Language Model (LLM) to automate circuit compilation, noise suppression, error-mitigation strategies, and adaptive calibration, thereby improving quantum processor fidelity and throughput.
+- **High-Performance Quantum AI Computing Architectures** <i class="fas fa-microchip"></i> <i class="fas fa-shield-alt"></i>: Designing scalable, reliability-aware computing architectures that integrate AI-driven scheduling, adaptive resource allocation, compiler feedback, and hardware-aware optimisation to improve the stability, robustness, and throughput of quantum workloads. These architectures leverage learning-based monitoring, control, and optimisation to mitigate noise, reduce execution variability, and make quantum processors more dependable for QML, VQA, and hybrid AI–quantum applications.
+
 
 ## News! :dart:
 :triangular_flag_on_post: One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 18th June 2026
