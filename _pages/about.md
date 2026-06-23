@@ -24,7 +24,7 @@ My research focuses on two main areas:
 - **AI Techniques for Quantum Hardware**: Deploying Large Language Model (LLM) to automate circuit compilation, noise suppression, error-mitigation strategies, and adaptive calibration, thereby improving quantum processor fidelity and throughput.
 
 ## News! :dart:
-:triangular_flag_on_post: One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 10th Octorber 2024
+:triangular_flag_on_post: One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 18th June 2026
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
 - Quantum Squeeze-and-Excitation Networks: Harnessing Quantum Noise for Robust Attention Mechanisms in Hybrid Architectures
 
