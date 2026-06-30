@@ -84,4 +84,4 @@ My research focuses on two main areas:
 
 <hr>
   
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=D4p-zXS2EZs3BXk_vq074ZxFFx75t50GFqdbgYhcZYw&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=200&t=n&d=D4p-zXS2EZs3BXk_vq074ZxFFx75t50GFqdbgYhcZYw'></script>
