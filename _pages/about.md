@@ -84,4 +84,4 @@ My research focuses on two main areas:
 
 <hr>
   
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=250&t=n&d=dechcSMjaGO07G6CymH4u-Bg05CWw8GLJyjQW_JhEZg'></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=D4p-zXS2EZs3BXk_vq074ZxFFx75t50GFqdbgYhcZYw&cl=ffffff&w=a"></script>
