@@ -29,7 +29,7 @@ My research focuses on two main areas:
 ## News! :dart:
 :triangular_flag_on_post: One Paper Accepted by [ACM/IEEE ICCAD 2026](https://iccad.com/2026) , 11th July 2026
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Yidong Zhou, Samuel Yen-Chi Chen, Huan-Hsin Tseng, Louis Chen, Siyuan Niu, Zhiding Liang, Ying Wang
-- Does Scaling Up Quantum Circuits Always Help? You May NeedmFALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits
+- Does Scaling Up Quantum Circuits Always Help? You May Need FALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits
 
 :triangular_flag_on_post: One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 18th June 2026
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
