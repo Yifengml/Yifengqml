@@ -22,8 +22,10 @@ Services-Reviewer
 * AAAI 2027 Conference Program Committee
 * ICLR 2026 Conference Program Committee
 * Nature Scientific Reports
+* npj Quantum Information
 * 2025 International Conference on Computer-Aided Design (ICCAD)
 * IEEE International Conference on Quantum Computing and Engineering (QCE) 2025
+* IEEE International Conference on Quantum Computing and Engineering (QCE) 2026
 * The Thirteenth International Conference on Learning Representations (ICLR 2025)
 * 2025 Design Automation Conference (DAC)
 * IEEE Transactions on Machine Learning in Communications and Networking
