@@ -27,6 +27,10 @@ My research focuses on two main areas:
 
 
 ## News! :dart:
+:triangular_flag_on_post: One Paper Accepted by [ACM/IEEE ICCAD 2026](https://iccad.com/2026) , 23th July 2026
+- <u><b>Yifeng Peng</b></u>, Xinyi Li, Yidong Zhou, Siyuan Niu, Hao Wang, Bo Yuan, Ying Wang
+- RZ-Flow: Readout-Zone and Feedforward-Aware Compilation for Dynamic Zoned Neutral-Atom Quantum Computers
+  
 :triangular_flag_on_post: One Paper Accepted by [ACM/IEEE ICCAD 2026](https://iccad.com/2026) , 11th July 2026
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Yidong Zhou, Samuel Yen-Chi Chen, Huan-Hsin Tseng, Louis Chen, Siyuan Niu, Zhiding Liang, Ying Wang
 - Does Scaling Up Quantum Circuits Always Help? You May Need FALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits
