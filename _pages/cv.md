@@ -17,6 +17,8 @@ Education
   
 Services-Reviewer
 ======
+* IEEE Transactions on Mobile Computing
+* IEEE International Symposium on High-Performance Computer Architecture (HPCA 2027)
 * ICML 2026 Conference Program Committee
 * NeuriIPS 2026 Conference Program Committee
 * AAAI 2027 Conference Program Committee
