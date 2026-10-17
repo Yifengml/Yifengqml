@@ -27,6 +27,10 @@ My research focuses on two main areas:
 
 
 ## News! :dart:
+:triangular_flag_on_post: One Paper Accepted by [ACM SOCC 2026](https://acmsocc.org/2026/) , 7th Octorber 2026
+- Xinyi Li, <u><b>Yifeng Peng</b></u>, Siyuan Niu, Zhiding Liang, Hao Wang, Ying Wang
+-  TransCache: Opportunistic Pre-Transpilation Caching for Low-Latency Quantum-as-a-Service
+  
 :triangular_flag_on_post: One Paper Accepted by [ACM/IEEE ICCAD 2026](https://iccad.com/2026) , 23th July 2026
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Yidong Zhou, Siyuan Niu, Hao Wang, Bo Yuan, Ying Wang
 - RZ-Flow: Readout-Zone and Feedforward-Aware Compilation for Dynamic Zoned Neutral-Atom Quantum Computers
