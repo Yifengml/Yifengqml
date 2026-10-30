@@ -27,7 +27,7 @@ My research focuses on two main areas:
 
 
 ## News! :dart:
-:mortar_board: Successfully defended my Ph.D. dissertation at Stevens Institute of Technology, 28th October 2026
+:mortar_board: Successfully defended my Ph.D. dissertation, 28th October 2026
 - Dissertation: Quantum for AI and AI for Quantum: Toward Future High-Performance Hybrid Computing
 - Sincere thanks to my advisor Prof. Ying Wang and committee members Prof. Philip Odonkor, Prof. Ting Liao, and Prof. Yuping Huang
 
@@ -46,7 +46,6 @@ My research focuses on two main areas:
 :triangular_flag_on_post: One Paper Accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785) , 18th June 2026
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Ying Wang
 - Quantum Squeeze-and-Excitation Networks: Harnessing Quantum Noise for Robust Attention Mechanisms in Hybrid Architectures
-
 
 :triangular_flag_on_post: One Paper Accepted by [The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)](https://neurips.cc/) , 18th September 2025
 - <u><b>Yifeng Peng</b></u>, Xinyi Li, Samuel Yen-Chi Chen, Kaining Zhang, Zhiding Liang, Ying Wang, Yuxuan Du
