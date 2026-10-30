@@ -27,6 +27,10 @@ My research focuses on two main areas:
 
 
 ## News! :dart:
+:mortar_board: Successfully defended my Ph.D. dissertation and graduated from Stevens Institute of Technology, 28th October 2026
+- Dissertation: Quantum for AI and AI for Quantum: Toward Future High-Performance Hybrid Computing
+- Sincere thanks to my advisor Prof. Ying Wang and committee members Prof. Philip Odonkor, Prof. Ting Liao, and Prof. Yuping Huang
+
 :triangular_flag_on_post: One Paper Accepted by [ACM SOCC 2026](https://acmsocc.org/2026/) , 7th Octorber 2026
 - Xinyi Li, <u><b>Yifeng Peng</b></u>, Siyuan Niu, Zhiding Liang, Hao Wang, Ying Wang
 -  TransCache: Opportunistic Pre-Transpilation Caching for Low-Latency Quantum-as-a-Service
