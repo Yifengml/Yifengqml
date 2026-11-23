@@ -5,12 +5,74 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
+{% assign talks = site.talks | sort: "date" %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<link rel="stylesheet" href="{{ base_path }}/assets/talkmap/talkmap.css">
 
-{% endif %}
+<section class="tm" id="talkmap" data-assets="{{ base_path }}/assets/talkmap" aria-label="Map of the places where I have given talks" hidden>
+  <div class="tm-stage">
+    <svg class="tm-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div class="tm-caption" aria-live="off"></div>
+    <button class="tm-replay" type="button" aria-label="Replay the journey" title="Replay the journey">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+    </button>
+    <div class="tm-tip" hidden></div>
+  </div>
+</section>
+<script>document.getElementById('talkmap').hidden = false;</script>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<script type="application/json" id="talkmap-data">
+[
+{% for post in talks %}{% if post.lat and post.lng %}
+  {
+    "n": {{ forloop.index }},
+    "id": "talk-{{ forloop.index }}",
+    "title": {{ post.title | remove_first: "Presentation at " | strip | jsonify }},
+    "short": {{ post.short | default: "" | jsonify }},
+    "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+    "dateLabel": {{ post.date | date: "%b %-d, %Y" | jsonify }},
+    "monthLabel": {{ post.date | date: "%b %Y" | jsonify }},
+    "place": {{ post.location | strip | jsonify }},
+    "city": {{ post.location | split: "," | first | strip | jsonify }},
+    "lat": {{ post.lat }},
+    "lng": {{ post.lng }},
+    "photo": {% if post.photo %}{{ post.photo | prepend: "/images/talks/" | prepend: base_path | jsonify }}{% else %}""{% endif %}
+  },
+{% endif %}{% endfor %}
+  null
+]
+</script>
+
+<ul class="tk-list">
+  {% for post in talks reversed %}
+    <li class="tk-card" id="talk-{{ forloop.rindex }}" data-stop="{{ forloop.rindex }}">
+      {% if post.photo %}
+        <a class="tk-photo" href="{{ base_path }}{{ post.url }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ base_path }}/images/talks/{{ post.photo }}" alt="" loading="lazy">
+        </a>
+      {% endif %}
+      <div class="tk-body">
+        <p class="tk-meta">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+            {{ post.date | date: "%b %-d, %Y" }}
+          </span>
+          {% if post.location %}
+            <span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              {{ post.location | strip }}
+            </span>
+          {% endif %}
+        </p>
+        <h2 class="tk-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title | remove_first: "Presentation at " | strip | escape }}</a></h2>
+        {% if post.venue %}<p class="tk-paper">{{ post.venue | strip | escape }}</p>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<script src="{{ base_path }}/assets/talkmap/d3-array.min.js"></script>
+<script src="{{ base_path }}/assets/talkmap/d3-geo.min.js"></script>
+<script src="{{ base_path }}/assets/talkmap/topojson-client.min.js"></script>
+<script src="{{ base_path }}/assets/talkmap/talkmap.js"></script>

@@ -37,12 +37,9 @@ author_profile: true
   }
 </style>
 
-<p class="pub-intro">
-  Selected publications in CCF-ranked venues.
-  {% if site.author.googlescholar %}
-    The full list is on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-  {% endif %}
-</p>
+{% if site.author.googlescholar %}
+  <p class="pub-intro">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
+{% endif %}
 
 <div class="pub-list">
   {% for pub in site.data.publications %}

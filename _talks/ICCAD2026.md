@@ -6,6 +6,10 @@ permalink: /talks/ICCAD2026
 venue: "Does Scaling Up Quantum Circuits Always Help? You May Need FALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits"
 date: 2026-11-11
 location: "San Jose, California, USA "
+short: "ICCAD 2026"
+lat: 37.3382
+lng: -121.8863
+photo: iccad26.jpg
 ---
 <img src="../images/iccad263.png" alt="aaai2025" width="250">
 <img src="../images/iccad26.jpg" alt="aaai2025" width="150">
