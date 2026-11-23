@@ -5,32 +5,73 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+<style>
+  .pub-intro { margin: 0 0 1.75em; color: #555; }
+  .pub-list { margin: 0; padding: 0; }
+  .pub-item { display: flex; align-items: flex-start; gap: 1.4em; margin: 0 0 2.2em; }
+  .pub-thumb { flex: 0 0 34%; max-width: 250px; }
+  .pub-thumb img { display: block; width: 100%; height: auto; max-height: 210px; object-fit: contain; border-radius: 6px; }
+  .pub-thumb-empty {
+    display: flex; align-items: center; justify-content: center;
+    aspect-ratio: 16 / 9; border-radius: 6px;
+    background: #f3f4f6; color: #9aa0a6;
+    font-weight: 600; letter-spacing: 0.02em;
+  }
+  .pub-body { flex: 1 1 0; min-width: 0; }
+  .pub-title { margin: 0 0 0.3em; font-weight: 600; line-height: 1.35; color: #222; }
+  .pub-authors { margin: 0 0 0.35em; line-height: 1.5; color: #7a7a7a; }
+  .pub-authors .pub-me { font-weight: 700; color: #b5121b; }
+  .pub-links { margin: 0; line-height: 1.6; }
+  .archive .pub-links a { margin-right: 0.3em; font-weight: 500; white-space: nowrap; text-decoration: none; }
+  .archive .pub-links a:hover { text-decoration: underline; }
+  .pub-links .pub-link-venue { color: #188a18; }
+  .pub-links .pub-link-paper { color: #5b8def; }
+  .pub-links .pub-link-code { color: #e516e5; }
+  .pub-links .pub-link-slides { color: #f08c00; }
+  .pub-ccf {
+    display: inline-block; margin-right: 0.45em; padding: 0.05em 0.55em;
+    border-radius: 999px; font-size: 0.72em; font-weight: 700;
+    letter-spacing: 0.03em; vertical-align: 0.12em; white-space: nowrap;
+  }
+  .pub-ccf-A { background: #fdecc8; color: #8a5a00; }
+  .pub-ccf-B { background: #dceafd; color: #1d4f91; }
+  .pub-ccf-C { background: #e9ebee; color: #4d5560; }
+  @media (max-width: 600px) {
+    .pub-item { flex-direction: column; gap: 0.8em; }
+    .pub-thumb { flex: 0 0 auto; width: 100%; max-width: 360px; }
+    .pub-thumb-none { display: none; }
+  }
+</style>
+
+<p class="pub-intro">
+  Selected publications in CCF-ranked venues.
+  {% if site.author.googlescholar %}
+    The full list is on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  {% endif %}
+</p>
+
+<div class="pub-list">
+  {% for pub in site.data.publications %}
+    <div class="pub-item">
+      <div class="pub-thumb{% unless pub.image %} pub-thumb-none{% endunless %}">
+        {% if pub.image %}
+          <img src="{{ base_path }}/images/pubs/{{ pub.image }}" alt="{{ pub.title | escape }}" loading="lazy">
+        {% else %}
+          <div class="pub-thumb-empty">{{ pub.links[0].label }}</div>
+        {% endif %}
+      </div>
+      <div class="pub-body">
+        <p class="pub-title">{{ pub.title }}</p>
+        <p class="pub-authors">{{ pub.authors | replace: "Yifeng Peng", '<span class="pub-me">Yifeng Peng</span>' }}</p>
+        <p class="pub-links">
+          {% if pub.ccf %}<span class="pub-ccf pub-ccf-{{ pub.ccf }}">CCF-{{ pub.ccf }}</span>{% endif %}
+          {% for link in pub.links %}
+            <a class="pub-link-{{ link.type | default: 'paper' }}" href="{{ link.url }}">[{{ link.label }}]</a>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+</div>

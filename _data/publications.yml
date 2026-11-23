@@ -1,0 +1,82 @@
+# Selected publications shown on the /publications/ page (CCF-ranked venues only).
+# Papers are displayed in the order listed here; to add one, copy a block and edit it.
+#
+#   title    paper title
+#   authors  full author list ("Yifeng Peng" is highlighted automatically)
+#   image    thumbnail file inside /images/pubs/ (about 600px wide). If omitted,
+#            a plain tile showing the venue is displayed instead.
+#   ccf      CCF rank, A / B / C (shown as a small badge; delete the line to hide it)
+#   links    label + url + type; the type sets the colour of the link:
+#              venue  = green    (the published paper or the conference)
+#              paper  = blue     (arXiv, poster, ...)
+#              code   = magenta  (software, appendix, ...)
+#              slides = orange
+
+# ---------------------------------------------------------------- CCF-A
+- title: "TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE"
+  authors: "Yifeng Peng, Xinyi Li, Samuel Yen-Chi Chen, Kaining Zhang, Zhiding Liang, Ying Wang, Yuxuan Du"
+  image: titan.jpg
+  ccf: A
+  links:
+    - label: "NeurIPS'25"
+      url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/438d8b727410a558c4266d1e1a4f8616-Abstract-Conference.html"
+      type: venue
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2509.15193"
+      type: paper
+    - label: "Poster"
+      url: "https://neurips.cc/virtual/2025/poster/115308"
+      type: paper
+    - label: "Appendix"
+      url: "https://github.com/Yifengml/TITAN-Appendix"
+      type: code
+
+- title: "Qsco: A Quantum Scoring Module for Open-Set Supervised Anomaly Detection"
+  authors: "Yifeng Peng, Xinyi Li, Zhiding Liang, Ying Wang"
+  image: qsco.jpg
+  ccf: A
+  links:
+    - label: "AAAI'25"
+      url: "https://doi.org/10.1609/aaai.v39i19.34190"
+      type: venue
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2405.16368"
+      type: paper
+
+# ---------------------------------------------------------------- CCF-B
+- title: "Does Scaling Up Quantum Circuits Always Help? You May Need FALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits"
+  authors: "Yifeng Peng, Xinyi Li, Yidong Zhou, Samuel Yen-Chi Chen, Huanhsin Tseng, Kuan-Cheng Chen, Siyuan Niu, Zhiding Liang, Ying Wang"
+  image: falcon.jpg
+  ccf: B
+  links:
+    - label: "ICCAD'26"
+      url: "https://iccad.com/2026"
+      type: venue
+
+- title: "RZ-Flow: Readout-Zone and Feedforward-Aware Compilation for Dynamic Zoned Neutral-Atom Quantum Computers"
+  authors: "Yifeng Peng, Xinyi Li, Yidong Zhou, Siyuan Niu, Hao Wang, Bo Yuan, Ying Wang"
+  image: rzflow.jpg
+  ccf: B
+  links:
+    - label: "ICCAD'26"
+      url: "https://iccad.com/2026"
+      type: venue
+
+- title: "TransCache: Opportunistic Pre-Transpilation Caching for Low-Latency Quantum-as-a-Service"
+  authors: "Xinyi Li, Yifeng Peng, Siyuan Niu, Zhiding Liang, Hao Wang, Ying Wang"
+  image: transcache.jpg
+  ccf: B
+  links:
+    - label: "SoCC'26"
+      url: "https://acmsocc.org/2026/"
+      type: venue
+
+# ---------------------------------------------------------------- CCF-C
+- title: "FiCo: A Fingerprinting-Based Two-Step Learning-to-Learn Approach Combing Vibration and 5G Communication for UAV Classification"
+  authors: "Xinyi Li, Yifeng Peng, Ying Wang"
+  image: fico.jpg
+  ccf: C
+  links:
+    - label: "ICC'25"
+      url: "https://doi.org/10.1109/ICC52391.2025.11161218"
+      type: venue
