@@ -66,7 +66,7 @@
 
   /* ---- projection: frame the map around the talk locations ---- */
 
-  function makeProjection(w, h) {
+  function makeProjection(w, h, u) {
     var lons = stops.map(function (s) { return s.lng; });
     var lats = stops.map(function (s) { return s.lat; });
     var lon0 = Math.min.apply(null, lons), lon1 = Math.max.apply(null, lons);
@@ -82,9 +82,10 @@
       var midLat = (lat0 + lat1) / 2;
       var half = Math.max((lat1 - lat0) / 3, 5);
       var midLon = (lon0 + lon1) / 2;
-      var padX = Math.max(w < 480 ? 30 : 46, w * 0.085);
-      var padTop = Math.max(60, h * 0.16);
-      var padBottom = Math.max(62, h * 0.17);
+      // Room for a whole pin above the northernmost stop and a label under the southernmost.
+      var padX = Math.max(w < 420 ? 38 : 56, w * 0.07);   // side room for a city name beside the outermost pins
+      var padTop = 36 * u + 12;
+      var padBottom = 22;
       proj = d3.geoConicEqualArea()
         .parallels([clamp(midLat - half, -80, 80), clamp(midLat + half, -80, 80)])
         .rotate([-midLon, 0]);
@@ -113,17 +114,19 @@
     if (!w || !h || !geo) { return; }
     renderedWidth = w;
 
-    var u = clamp(w / 860, 0.74, 1) * 1.14;     // size factor for pins and labels
-    var proj = makeProjection(w, h);
+    var k = clamp(w / 860, 0.62, 1);            // detail scale: a smaller map gets smaller decorations
+    var u = Math.max(k, 0.7) * 1.14;            // size factor for pins and labels (kept legible on small maps)
+    var proj = makeProjection(w, h, u);
     var path = d3.geoPath(proj);
 
     while (svg.firstChild) { svg.removeChild(svg.firstChild); }
     svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
     svg.style.setProperty('--tm-w', w + 'px');
+    svg.classList.toggle('tm-small', w < 620);
 
     var defs = el('defs', {}, svg);
     var blur = el('filter', { id: 'tm-blur', x: '-10%', y: '-10%', width: '120%', height: '120%' }, defs);
-    el('feGaussianBlur', { stdDeviation: 7 }, blur);
+    el('feGaussianBlur', { stdDeviation: fmt(7 * k) }, blur);
 
     var backdrop = el('g', { 'aria-hidden': 'true' }, svg);
     var landD = path(geo.land) || '';
@@ -158,10 +161,10 @@
     });
 
     var onLand = landTester(landD);
-    var boat = drawBoat(backdrop, onLand, w, h);
-    drawWaves(backdrop, onLand, boat, w, h);
-    drawCompass(backdrop, w, h);
-    drawClouds(backdrop, w, h);
+    var boat = drawBoat(backdrop, onLand, w, h, k);
+    drawWaves(backdrop, onLand, boat, w, h, k);
+    drawCompass(backdrop, w, h, k);
+    drawClouds(backdrop, w, h, k);
 
     // Flight legs between consecutive stops.
     var routesG = el('g', { 'aria-hidden': 'true' }, svg);
@@ -237,15 +240,16 @@
   }
 
   /* A small sailboat in the first stretch of open water that is free. */
-  function drawBoat(parent, onLand, w, h) {
+  function drawBoat(parent, onLand, w, h, k) {
     if (!onLand) { return null; }
     var spots = [[0.9, 0.72], [0.93, 0.5], [0.07, 0.7], [0.08, 0.42], [0.62, 0.92], [0.4, 0.93]];
     for (var i = 0; i < spots.length; i++) {
       var x = spots[i][0] * w, y = spots[i][1] * h;
-      var inUi = (x < 350 && y > h - 70) || (x > w - 80 && y > h - 80) || (x > w - 70 && y < 70);
-      var wet = !onLand(x, y) && !onLand(x - 26, y) && !onLand(x + 26, y) && !onLand(x, y - 26) && !onLand(x, y + 22);
-      if (inUi || !wet || nearStop(x, y, 60)) { continue; }
-      var holder = el('g', { transform: 'translate(' + fmt(x) + ',' + fmt(y) + ')' }, parent);
+      var r = 26 * k;
+      var byCompass = x > w - 80 * k && y > h - 80 * k;
+      var wet = !onLand(x, y) && !onLand(x - r, y) && !onLand(x + r, y) && !onLand(x, y - r) && !onLand(x, y + r);
+      if (byCompass || !wet || nearStop(x, y, 56 * k)) { continue; }
+      var holder = el('g', { transform: 'translate(' + fmt(x) + ',' + fmt(y) + ') scale(' + fmt(k) + ')' }, parent);
       var boat = el('g', { 'class': 'tm-boat' }, holder);
       el('path', { 'class': 'tm-boat-sails', d: BOAT_SAILS }, boat);
       el('path', { 'class': 'tm-boat-hull', d: BOAT_HULL }, boat);
@@ -255,27 +259,34 @@
     return null;
   }
 
-  function drawWaves(parent, onLand, boat, w, h) {
+  function drawWaves(parent, onLand, boat, w, h, k) {
     if (!onLand) { return; }
     var seed = 11;
     function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
-    var cols = Math.max(3, Math.round(w / 120)), rows = Math.max(3, Math.round(h / 92));
+    var cols = Math.max(3, Math.round(w / (120 * k))), rows = Math.max(2, Math.round(h / (92 * k)));
     var g = el('g', {}, parent);
     for (var r = 0; r < rows; r++) {
       for (var c = 0; c < cols; c++) {
         var x = (c + 0.2 + rnd() * 0.6) * w / cols;
         var y = (r + 0.25 + rnd() * 0.5) * h / rows;
-        if (onLand(x, y) || onLand(x - 16, y) || onLand(x + 16, y) || onLand(x, y - 12) || onLand(x, y + 12)) { continue; }
-        if (nearStop(x, y, 46)) { continue; }
-        if (boat && Math.abs(boat.x - x) < 44 && Math.abs(boat.y - y) < 34) { continue; }
-        el('path', { 'class': 'tm-wave', d: 'M' + fmt(x - 9) + ',' + fmt(y) + ' q4.5,-5 9,0 t9,0' }, g);
+        var dx = 16 * k, dy = 12 * k;
+        if (onLand(x, y) || onLand(x - dx, y) || onLand(x + dx, y) || onLand(x, y - dy) || onLand(x, y + dy)) { continue; }
+        if (nearStop(x, y, 46 * k)) { continue; }
+        if (boat && Math.abs(boat.x - x) < 44 * k && Math.abs(boat.y - y) < 34 * k) { continue; }
+        el('path', {
+          'class': 'tm-wave', d: 'M-9,0 q4.5,-5 9,0 t9,0',
+          transform: 'translate(' + fmt(x) + ',' + fmt(y) + ') scale(' + fmt(k) + ')'
+        }, g);
       }
     }
   }
 
-  function drawCompass(parent, w, h) {
-    if (w < 420) { return; }
-    var g = el('g', { 'class': 'tm-compass', transform: 'translate(' + (w - 36) + ',' + (h - 38) + ')' }, parent);
+  function drawCompass(parent, w, h, k) {
+    if (w < 360) { return; }
+    var g = el('g', {
+      'class': 'tm-compass',
+      transform: 'translate(' + fmt(w - 12 - 19 * k) + ',' + fmt(h - 10 - 19 * k) + ') scale(' + fmt(k) + ')'
+    }, parent);
     el('circle', { r: 19 }, g);
     el('path', { 'class': 'tm-compass-n', d: 'M0,-13 L3.6,0 L-3.6,0 Z' }, g);
     el('path', { d: 'M0,13 L3.6,0 L-3.6,0 Z' }, g);
@@ -284,24 +295,26 @@
     n.textContent = 'N';
   }
 
-  function drawClouds(parent, w, h) {
+  function drawClouds(parent, w, h, k) {
     var specs = [
       { y: 0.07, s: 0.95, dur: 110, delay: -18 },
       { y: 0.33, s: 0.62, dur: 150, delay: -95 },
       { y: 0.66, s: 0.78, dur: 128, delay: -60 }
     ];
     specs.forEach(function (c) {
-      var holder = el('g', { transform: 'translate(0,' + fmt(h * c.y) + ') scale(' + c.s + ')' }, parent);
+      var s = c.s * k;
+      var holder = el('g', { transform: 'translate(0,' + fmt(h * c.y) + ') scale(' + fmt(s) + ')' }, parent);
       el('path', {
         'class': 'tm-cloud', d: CLOUD_SHAPE,
-        style: '--dur:' + c.dur + 's;--delay:' + c.delay + 's;--tm-w:' + Math.round(w / c.s) + 'px'
+        style: '--dur:' + c.dur + 's;--delay:' + c.delay + 's;--tm-w:' + Math.round(w / s) + 'px'
       }, holder);
     });
   }
 
   /* City labels: try a few positions around each pin and keep the first that is free. */
   function placeLabels(parent, groups, w, h, u) {
-    var size = Math.max(11, 13 * u);
+    var size = Math.max(10, 13 * u);
+    var k = clamp(w / 860, 0.62, 1);
     var lineH = size * 1.2;
     var taken = [];
     function box(x0, y0, x1, y1) { return [x0, y0, x1, y1]; }
@@ -313,9 +326,7 @@
       return false;
     }
     stops.forEach(function (s) { taken.push(box(s.x - 12 * u, s.y - 35 * u, s.x + 12 * u, s.y + 4)); });
-    taken.push(box(0, h - 54, Math.min(w, 340), h));    // caption
-    taken.push(box(w - 58, 0, w, 58));                   // replay button
-    taken.push(box(w - 62, h - 66, w, h));               // compass
+    if (w >= 360) { taken.push(box(w - 16 - 40 * k, h - 14 - 52 * k, w, h)); }   // compass
 
     groups.slice().sort(function (a, b) { return a.y - b.y; }).forEach(function (g) {
       var text = el('text', { 'class': 'tm-label', 'font-size': fmt(size) }, parent);
@@ -327,7 +338,13 @@
       var left = [g.x - g.halfWidth - 5 - tw, headY - lineH / 2];
       var below = [g.x - tw / 2, g.y + 7];
       var above = [g.x - tw / 2, g.y - 36 * u - lineH - 1];
-      var order = g.x > w / 2 ? [right, left, below, above] : [left, right, below, above];
+      var lowRight = [g.x + 5, g.y + 3];
+      var lowLeft = [g.x - 5 - tw, g.y + 3];
+      var highRight = [g.x + g.halfWidth - 2, g.y - 37 * u - lineH * 0.7];
+      var highLeft = [g.x - g.halfWidth + 2 - tw, g.y - 37 * u - lineH * 0.7];
+      var order = g.x > w / 2
+        ? [right, left, below, above, lowRight, lowLeft, highRight, highLeft]
+        : [left, right, below, above, lowLeft, lowRight, highLeft, highRight];
       var spot = null;
       for (var i = 0; i < order.length && !spot; i++) {
         var b = box(order[i][0] - 2, order[i][1] - 1, order[i][0] + tw + 2, order[i][1] + lineH + 1);
@@ -358,10 +375,11 @@
     tip.appendChild(strong);
     tip.appendChild(meta);
     tip.hidden = false;
+    // The card may spill over the edge of a small map: above the pin when the window has room, else below.
     var tw = tip.offsetWidth, th = tip.offsetHeight;
-    var left = clamp(s.x - tw / 2, 8, w - tw - 8);
+    var left = clamp(s.x - tw / 2, 0, Math.max(0, w - tw));
     var top = s.y - 40 * u - th - 6;
-    if (top < 8) { top = Math.min(s.y + 12, h - th - 8); }
+    if (stage.getBoundingClientRect().top + top < 8) { top = s.y + 12; }
     tip.style.left = Math.round(left) + 'px';
     tip.style.top = Math.round(top) + 'px';
   }

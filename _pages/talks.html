@@ -13,12 +13,14 @@ author_profile: true
 <section class="tm" id="talkmap" data-assets="{{ base_path }}/assets/talkmap" aria-label="Map of the places where I have given talks" hidden>
   <div class="tm-stage">
     <svg class="tm-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+  <div class="tm-bar">
     <div class="tm-caption" aria-live="off"></div>
     <button class="tm-replay" type="button" aria-label="Replay the journey" title="Replay the journey">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
     </button>
-    <div class="tm-tip" hidden></div>
   </div>
+  <div class="tm-tip" hidden></div>
 </section>
 <script>document.getElementById('talkmap').hidden = false;</script>
 

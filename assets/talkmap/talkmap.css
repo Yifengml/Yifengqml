@@ -18,16 +18,16 @@
 
 /* ---------- map ---------- */
 
-.tm { margin: 0.4em 0 1.6em; }
+.tm { position: relative; width: 50%; min-width: min(420px, 100%); margin: 0.4em auto 1.5em; }
 .tm[hidden] { display: none; }
 
 .tm-stage {
   position: relative;
   aspect-ratio: 16 / 7.2;
   overflow: hidden;
-  border-radius: 18px;
+  border-radius: 14px;
   background: linear-gradient(var(--tm-sea-1), var(--tm-sea-2));
-  box-shadow: 0 0 0 1px rgba(43, 59, 85, 0.08), 0 18px 34px -24px rgba(31, 78, 110, 0.55);
+  box-shadow: 0 0 0 1px rgba(43, 59, 85, 0.08), 0 12px 24px -18px rgba(31, 78, 110, 0.55);
 }
 
 .tm-svg { position: absolute; inset: 0; display: block; width: 100%; height: 100%; font-family: inherit; }
@@ -94,14 +94,20 @@
 .tm-plane.is-on { opacity: 1; }
 .tm-plane path { fill: #fff; stroke: var(--tm-ink); stroke-width: 1.5; stroke-linejoin: round; }
 
+.tm-small .tm-land { stroke-width: 1.1; }
+.tm-small .tm-borders { stroke-width: 1; }
+.tm-small .tm-states { stroke-width: 0.8; stroke-dasharray: 2 2.5; }
+.tm-small .tm-route { stroke-width: 2; stroke-dasharray: 1 5.5; }
+.tm-small .tm-route-glow { stroke-width: 4; }
+
+.tm-bar { position: relative; display: flex; align-items: center; justify-content: center; min-height: 30px; margin-top: 8px; padding: 0 36px; }
 .tm-caption {
-  position: absolute; left: 12px; bottom: 12px; max-width: calc(100% - 84px);
-  display: flex; align-items: center; gap: 8px;
-  padding: 6px 12px 6px 7px; border-radius: 999px;
-  background: rgba(255, 255, 255, 0.94); color: var(--tm-ink);
-  box-shadow: 0 6px 16px -8px rgba(31, 78, 110, 0.55);
-  font-size: 13px; line-height: 1.25; white-space: nowrap;
+  display: flex; align-items: center; gap: 7px; max-width: 100%;
+  padding: 4px 12px 4px 5px; border-radius: 999px;
+  background: #eef5f9; color: var(--tm-ink);
+  font-size: 12.5px; line-height: 1.25; white-space: nowrap;
 }
+.tm-caption > .tm-cap-t:first-child { margin-left: 7px; }
 .tm-caption:empty { display: none; }
 .tm-cap-n {
   flex: none; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 999px;
@@ -111,18 +117,17 @@
 .tm-cap-s { color: var(--tm-muted); overflow: hidden; text-overflow: ellipsis; }
 
 .tm-replay {
-  position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; padding: 0;
+  position: absolute; top: 50%; right: 0; width: 28px; height: 28px; margin-top: -14px; padding: 0;
   display: flex; align-items: center; justify-content: center;
-  border: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.94); color: var(--tm-ink);
-  box-shadow: 0 6px 16px -8px rgba(31, 78, 110, 0.55); cursor: pointer;
+  border: 0; border-radius: 50%; background: #eef5f9; color: var(--tm-ink); cursor: pointer;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 .tm-replay:hover { color: var(--tm-pin); transform: rotate(-35deg); }
 .tm-replay:focus-visible { outline: 2px solid var(--tm-ink); outline-offset: 2px; }
-.tm-replay svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.tm-replay svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 .tm-tip {
-  position: absolute; z-index: 2; width: 216px; padding: 8px; border-radius: 12px;
+  position: absolute; z-index: 5; width: 190px; padding: 7px; border-radius: 12px;
   background: #fff; color: var(--tm-ink); box-shadow: 0 14px 30px -14px rgba(31, 60, 90, 0.6), 0 0 0 1px rgba(43, 59, 85, 0.08);
   font-size: 12.5px; line-height: 1.35; pointer-events: none;
 }
@@ -170,7 +175,8 @@
 .tk-paper { margin: 0; color: #707070; font-size: 0.84em; line-height: 1.45; }
 
 @media (max-width: 600px) {
-  .tm-stage { aspect-ratio: 4 / 3; border-radius: 14px; }
+  .tm { width: 100%; }
+  .tm-stage { aspect-ratio: 16 / 9.5; }
   .tm-caption { font-size: 12px; }
   .tk-card { align-items: flex-start; gap: 12px; }
   .tk-photo { flex-basis: 96px; }
