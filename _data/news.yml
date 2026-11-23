@@ -1,0 +1,157 @@
+# News shown on the home page, newest first.
+#
+# A paper:
+#   - date: 2027-01-15            (the day it was accepted)
+#     kind: paper
+#     venue: full name of the conference or journal
+#     short: short name shown on the coloured label, e.g. "NeurIPS 2027"
+#     journal: true               (only for journals; leave the line out for conferences)
+#     url: link for the label
+#     authors: "A, Yifeng Peng, B"   ("Yifeng Peng" is highlighted automatically)
+#     title: the paper title
+#
+# Anything else (a defence, an award, a new job):
+#   - date: 2027-01-15
+#     kind: milestone
+#     title: one-line headline
+#     notes:                      (optional extra lines)
+#       - first line
+
+- date: 2026-10-28
+  kind: milestone
+  title: "Successfully defended my Ph.D. dissertation"
+  notes:
+    - "Dissertation: Quantum for AI and AI for Quantum: Toward Future High-Performance Hybrid Computing"
+    - "Sincere thanks to my advisor Prof. Ying Wang and committee members Prof. Philip Odonkor, Prof. Ting Liao, and Prof. Yuping Huang"
+
+- date: 2026-10-07
+  kind: paper
+  venue: "ACM SOCC 2026"
+  short: "SoCC 2026"
+  url: "https://acmsocc.org/2026/"
+  authors: "Xinyi Li, Yifeng Peng, Siyuan Niu, Zhiding Liang, Hao Wang, Ying Wang"
+  title: "TransCache: Opportunistic Pre-Transpilation Caching for Low-Latency Quantum-as-a-Service"
+
+- date: 2026-07-23
+  kind: paper
+  venue: "ACM/IEEE ICCAD 2026"
+  short: "ICCAD 2026"
+  url: "https://iccad.com/2026"
+  authors: "Yifeng Peng, Xinyi Li, Yidong Zhou, Siyuan Niu, Hao Wang, Bo Yuan, Ying Wang"
+  title: "RZ-Flow: Readout-Zone and Feedforward-Aware Compilation for Dynamic Zoned Neutral-Atom Quantum Computers"
+
+- date: 2026-07-11
+  kind: paper
+  venue: "ACM/IEEE ICCAD 2026"
+  short: "ICCAD 2026"
+  url: "https://iccad.com/2026"
+  authors: "Yifeng Peng, Xinyi Li, Yidong Zhou, Samuel Yen-Chi Chen, Huan-Hsin Tseng, Louis Chen, Siyuan Niu, Zhiding Liang, Ying Wang"
+  title: "Does Scaling Up Quantum Circuits Always Help? You May Need FALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits"
+
+- date: 2026-06-18
+  kind: paper
+  venue: "IEEE Transactions on Quantum Engineering"
+  short: "IEEE TQE"
+  journal: true
+  url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785"
+  authors: "Yifeng Peng, Xinyi Li, Ying Wang"
+  title: "Quantum Squeeze-and-Excitation Networks: Harnessing Quantum Noise for Robust Attention Mechanisms in Hybrid Architectures"
+
+- date: 2025-09-18
+  kind: paper
+  venue: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)"
+  short: "NeurIPS 2025"
+  url: "https://neurips.cc/"
+  authors: "Yifeng Peng, Xinyi Li, Samuel Yen-Chi Chen, Kaining Zhang, Zhiding Liang, Ying Wang, Yuxuan Du"
+  title: "TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE"
+
+- date: 2025-07-08
+  kind: paper
+  venue: "IEEE International Conference on Quantum Computing and Engineering (QCE)"
+  short: "QCE 2025"
+  url: "https://qce.quantum.ieee.org/2025/"
+  authors: "Yifeng Peng, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang"
+  title: "Breaking Through Barren Plateaus: Reinforcement Learning Initializations for Deep Variational Quantum Circuits"
+
+- date: 2025-07-08
+  kind: paper
+  venue: "IEEE International Conference on Quantum Computing and Engineering (QCE)"
+  short: "QCE 2025"
+  url: "https://qce.quantum.ieee.org/2025/"
+  authors: "Yifeng Peng, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang"
+  title: "Can Classical Initialization Help Variational Quantum Circuits Escape the Barren Plateau?"
+
+- date: 2025-01-17
+  kind: paper
+  venue: "2025 IEEE International Conference on Communications (ICC)"
+  short: "ICC 2025"
+  url: "https://icc2025.ieee-icc.org/"
+  authors: "Xinyi Li, Yifeng Peng, Ying Wang"
+  title: "FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing Vibration and 5G Communication for UAV Classification"
+
+- date: 2024-12-09
+  kind: paper
+  venue: "The Association for the Advancement of Artificial Intelligence (AAAI) 2025"
+  short: "AAAI 2025"
+  url: "https://aaai.org/"
+  authors: "Yifeng Peng, Xinyi Li, Zhiding Liang, Ying Wang"
+  title: "Qsco: A Quantum Scoring Module for Open-set Supervised Anomaly Detection"
+
+- date: 2024-10-10
+  kind: paper
+  venue: "IEEE Transactions on Quantum Engineering"
+  short: "IEEE TQE"
+  journal: true
+  url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785"
+  authors: "Yifeng Peng, Xinyi Li, Zhiding Liang, Ying Wang"
+  title: "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection"
+
+- date: 2024-10-01
+  kind: paper
+  venue: "IEEE Open Journal of the Communications Society"
+  short: "IEEE OJ-COMS"
+  journal: true
+  url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661"
+  authors: "Yifeng Peng, Xinyi Li, Sudhanshu Arya, Ying Wang"
+  title: "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications"
+
+- date: 2024-08-23
+  kind: paper
+  venue: "IEEE International Conference on Quantum Computing and Engineering (QCE)"
+  short: "QCE 2024"
+  url: "https://qce.quantum.ieee.org/2024/"
+  authors: "Yifeng Peng, Xinyi Li, Ying Wang"
+  title: "Quantum Squeeze-and-Excitation Networks"
+
+- date: 2024-08-23
+  kind: paper
+  venue: "IEEE International Conference on Quantum Computing and Engineering (QCE)"
+  short: "QCE 2024"
+  url: "https://qce.quantum.ieee.org/2024/"
+  authors: "Yifeng Peng, Xinyi Li, Ying Wang"
+  title: "QRNG-DDPM: Enhancing Diffusion Models through Fitting Mixture Noise with Quantum Random Number"
+
+- date: 2024-01-01
+  kind: paper
+  venue: "2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)"
+  short: "CCNC 2024"
+  url: "https://ccnc2024.ieee-ccnc.org/"
+  authors: "Yifeng Peng, Xinyi Li, Jingda Yang, Sudhanshu Arya, Ying Wang"
+  title: "RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection"
+
+- date: 2023-10-30
+  kind: paper
+  venue: "MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM)"
+  short: "MILCOM 2023"
+  url: "https://milcom2023.milcom.org/"
+  authors: "Yifeng Peng, Jingda Yang, Sudhanshu Arya, Ying Wang"
+  title: "SmiLe Net: A Supervised Graph Embedding-based Machine Learning Approach for NextG Vulnerability Detection"
+
+- date: 2023-10-20
+  kind: paper
+  venue: "IEEE Access"
+  short: "IEEE Access"
+  journal: true
+  url: "https://ieeeaccess.ieee.org/"
+  authors: "Yifeng Peng, Xinyi Li, Sudhanshu Arya, Ying Wang"
+  title: "DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection"

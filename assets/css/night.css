@@ -393,3 +393,26 @@ html[data-theme="dark"] .tk-card.is-flash { animation-name: tk-flash-night; }
 html[data-theme="dark"] .archive .tk-title a { color: #e9edf2; }
 html[data-theme="dark"] .archive .tk-title a:hover { color: #ff8f84; }
 html[data-theme="dark"] .tk-paper { color: #99a0ab; }
+
+/* ---- home page: news timeline ---- */
+
+html[data-theme="dark"] .nw-wrap {
+  --nw-ink: #e6edf3;
+  --nw-muted: #8e99a6;
+  --nw-body: #a3adb9;
+  --nw-line: #2a313a;
+  --nw-card: #171b21;
+  --nw-page: #121519;
+  --nw-mint: #3fcba3;
+  --nw-violet: #a195ff;
+}
+html[data-theme="dark"] .nw-year span { background: #33211f; color: #ff9a8f; }
+html[data-theme="dark"] .nw-item:hover .nw-card { border-color: #7d463f; box-shadow: 0 14px 26px -20px rgba(255, 107, 87, 0.55); }
+html[data-theme="dark"] .nw-item--journal:hover .nw-card { border-color: #2c6b58; box-shadow: 0 14px 26px -20px rgba(63, 203, 163, 0.5); }
+html[data-theme="dark"] .nw-item--milestone .nw-card { border-color: #4a4378; background: linear-gradient(135deg, #2a2516, #221f3a); }
+html[data-theme="dark"] .nw-item--milestone:hover .nw-card { border-color: #7d73bd; box-shadow: 0 14px 26px -20px rgba(161, 149, 255, 0.5); }
+html[data-theme="dark"] .page__content .nw-venue { background: #16304a; color: #8cc8ff; }
+html[data-theme="dark"] .page__content .nw-item--journal .nw-venue { background: #123329; color: #7fe0c0; }
+html[data-theme="dark"] .page__content .nw-title { color: #e9edf2; }
+html[data-theme="dark"] .nw-more { border-color: #3a4350; }
+html[data-theme="dark"] .nw-more:hover { border-color: #ff7a66; color: #ff9a8f; }

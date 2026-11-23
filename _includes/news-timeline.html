@@ -1,0 +1,47 @@
+{% comment %}
+  News timeline on the home page; the entries live in _data/news.yml (newest first).
+  The first few are shown and the rest open with the button (without JavaScript everything is visible).
+{% endcomment %}
+{% assign shown = 6 %}
+{% assign older = site.data.news.size | minus: shown %}
+<div class="nw-wrap">
+  <ol class="nw" id="news-list">
+    {% assign last_year = "" %}
+    {% for item in site.data.news %}
+      {% assign year = item.date | date: "%Y" %}
+      {% if forloop.index > shown %}{% assign old = " nw-old" %}{% else %}{% assign old = "" %}{% endif %}
+      {% if year != last_year %}
+        <li class="nw-year{{ old }}"><span>{{ year }}</span></li>
+        {% assign last_year = year %}
+      {% endif %}
+      <li class="nw-item nw-item--{% if item.kind == 'milestone' %}milestone{% elsif item.journal %}journal{% else %}paper{% endif %}{{ old }}" data-date="{{ item.date | date: '%Y-%m-%d' }}">
+        <span class="nw-dot" aria-hidden="true">
+          {% if item.kind == "milestone" %}<i class="fa-solid fa-graduation-cap"></i>
+          {% elsif item.journal %}<i class="fa-solid fa-book-open"></i>
+          {% else %}<i class="fa-solid fa-flag"></i>{% endif %}
+        </span>
+        <div class="nw-card">
+          <p class="nw-meta">
+            <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+            {% if item.kind == "milestone" %}
+              <span class="nw-kind">Milestone</span>
+            {% else %}
+              <span class="nw-kind">Paper accepted</span>
+              {% if item.short or item.venue %}
+                {% if item.url %}<a class="nw-venue" href="{{ item.url }}" title="{{ item.venue | escape }}">{{ item.short | default: item.venue | escape }}</a>
+                {% else %}<span class="nw-venue" title="{{ item.venue | escape }}">{{ item.short | default: item.venue | escape }}</span>{% endif %}
+              {% endif %}
+            {% endif %}
+            <span class="nw-new">New</span>
+          </p>
+          <p class="nw-title">{{ item.title | escape }}</p>
+          {% if item.authors %}<p class="nw-authors">{{ item.authors | escape | replace: "Yifeng Peng", '<span class="nw-me">Yifeng Peng</span>' }}</p>{% endif %}
+          {% for note in item.notes %}<p class="nw-note">{{ note | escape }}</p>{% endfor %}
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+  {% if older > 0 %}
+    <button class="nw-more" id="news-more" type="button" aria-controls="news-list" aria-expanded="true" data-count="{{ older }}" hidden>Show earlier news</button>
+  {% endif %}
+</div>
