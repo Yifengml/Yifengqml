@@ -5,7 +5,6 @@
 #   authors  full author list ("Yifeng Peng" is highlighted automatically)
 #   image    thumbnail file inside /images/pubs/ (about 600px wide). If omitted,
 #            a plain tile showing the venue is displayed instead.
-#   ccf      CCF rank, A / B / C (shown as a small badge; delete the line to hide it)
 #   links    label + url + type; the type sets the colour of the link:
 #              venue  = green    (the published paper or the conference)
 #              paper  = blue     (arXiv, poster, ...)
@@ -16,7 +15,6 @@
 - title: "TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE"
   authors: "Yifeng Peng, Xinyi Li, Samuel Yen-Chi Chen, Kaining Zhang, Zhiding Liang, Ying Wang, Yuxuan Du"
   image: titan.jpg
-  ccf: A
   links:
     - label: "NeurIPS'25"
       url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/438d8b727410a558c4266d1e1a4f8616-Abstract-Conference.html"
@@ -34,7 +32,6 @@
 - title: "Qsco: A Quantum Scoring Module for Open-Set Supervised Anomaly Detection"
   authors: "Yifeng Peng, Xinyi Li, Zhiding Liang, Ying Wang"
   image: qsco.jpg
-  ccf: A
   links:
     - label: "AAAI'25"
       url: "https://doi.org/10.1609/aaai.v39i19.34190"
@@ -47,7 +44,6 @@
 - title: "Does Scaling Up Quantum Circuits Always Help? You May Need FALCON: A Fast Latency-Aware Hypergraph Compiler for Large-Scale Variational Quantum Circuits"
   authors: "Yifeng Peng, Xinyi Li, Yidong Zhou, Samuel Yen-Chi Chen, Huanhsin Tseng, Kuan-Cheng Chen, Siyuan Niu, Zhiding Liang, Ying Wang"
   image: falcon.jpg
-  ccf: B
   links:
     - label: "ICCAD'26"
       url: "https://iccad.com/2026"
@@ -56,7 +52,6 @@
 - title: "RZ-Flow: Readout-Zone and Feedforward-Aware Compilation for Dynamic Zoned Neutral-Atom Quantum Computers"
   authors: "Yifeng Peng, Xinyi Li, Yidong Zhou, Siyuan Niu, Hao Wang, Bo Yuan, Ying Wang"
   image: rzflow.jpg
-  ccf: B
   links:
     - label: "ICCAD'26"
       url: "https://iccad.com/2026"
@@ -65,7 +60,6 @@
 - title: "TransCache: Opportunistic Pre-Transpilation Caching for Low-Latency Quantum-as-a-Service"
   authors: "Xinyi Li, Yifeng Peng, Siyuan Niu, Zhiding Liang, Hao Wang, Ying Wang"
   image: transcache.jpg
-  ccf: B
   links:
     - label: "SoCC'26"
       url: "https://acmsocc.org/2026/"
@@ -75,7 +69,6 @@
 - title: "FiCo: A Fingerprinting-Based Two-Step Learning-to-Learn Approach Combing Vibration and 5G Communication for UAV Classification"
   authors: "Xinyi Li, Yifeng Peng, Ying Wang"
   image: fico.jpg
-  ccf: C
   links:
     - label: "ICC'25"
       url: "https://doi.org/10.1109/ICC52391.2025.11161218"
